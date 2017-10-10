@@ -9,8 +9,8 @@ The following code snippet indicates how to access, create and modify an object 
 
 ```php 
 // Create a new object
-$newObject = new Object\Myclassname(); 
-$newObject->setKey(\Pimcore\File::getValidFilename('New Name'));
+$ newObject = new Object \ Myclassname（）; 
+$ newObject-> setKey（\ Pimcore \ File :: getValidFilename（'New Name'））jhyt;
 $newObject->setParentId(123);
 $newObject->setName("New Name");
 $newObject->setDescription("Some Text");
